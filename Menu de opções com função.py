@@ -22,6 +22,7 @@ while True:
         conversao = 0.621371
         return km * conversao
        print("")
+       print("Vamos converter Km para milhas!")
        distancia_km = float(input("Digite a distância em quilômetros (km): "))
        resultado_milhas = converter_km_para_milhas(distancia_km)
        print(f"{distancia_km} km equivalem a {resultado_milhas:.2f} milhas.")
@@ -31,6 +32,7 @@ while True:
         conversao = 2.20462
         return kg * conversao
        print("")
+       print("Vamos converter Kg para libras!")
        peso_kg = float(input("Digite o peso em quilogramas (kg): "))
        resultado_libras = converter_kg_para_libras(peso_kg)
        print(f"{peso_kg} kg equivalem a {resultado_libras:.2f} libras.")
